@@ -6,6 +6,8 @@ function App() {
 
   const [questionNumber, setQuestionNumber] = useState(10)
 
+  
+
   const moneyArray = [
     {id: 1, amount:"₹ 1,000"},
     {id: 2, amount:"₹ 2,000"},
@@ -22,7 +24,7 @@ function App() {
     {id: 13, amount:"₹ 25,00,000"},
     {id: 14, amount:"₹ 50,00,000"},
     {id: 15, amount:"₹ 1,00,00,000"},
-    {id: 15, amount:"₹ 7,00,00,000"}
+    {id: 16, amount:"₹ 7,00,00,000"}
   ].reverse();
 
   return (
